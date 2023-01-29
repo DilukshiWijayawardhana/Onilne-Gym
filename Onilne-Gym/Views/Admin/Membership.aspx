@@ -14,39 +14,22 @@
                 </div>
 
                 <div>
-                    <label class="form-label" for="RGenCb">Membership's Duration</label>
+                    <label class="form-label" for="DurationTb">Membership's Duration</label>
+                    <input type="text" class="form-control" id="DurationTb" runat="server" autocomplete="off" />
 
                 </div>
 
                 <div>
-                    <label class="form-label" for="CDOBTb">Receptionist's D.O.B</label>
-                    <input type="date" id="CDOBTb" class="form-control form-control-lg" runat="server" />
+                    <label class="form-label" for="GoalTb">Membership's Goal</label>
+                    <input type="text" id="GoalTb" class="form-control form-control-lg" runat="server" />
                 </div>
 
                 <div>
-                    <label class="form-label" for="RPhone">Receptionist's Phone</label>
-                    <input type="text" class="form-control" id="Rphone" runat="server" autocomplete="off" />
+                    <label class="form-label" for="CostTb">Membership's Cost</label>
+                    <input type="text" class="form-control" id="CostTb" runat="server" autocomplete="off" />
                 </div>
 
-                <div>
-                    <label class="form-label" for="RecAddTb">Receptionist's Address</label>
-                    <input type="text" id="RecAddTb" class="form-control form-control-lg" runat="server" autocomplete="off" />
-                </div>
                 
-                <div>
-                    <label class="form-label" for="RecPasswordTb">Receptionist's Password</label>
-                    <input type="text" id="RecPasswordTb" class="form-control form-control-lg" runat="server" autocomplete="off" />
-                </div>
-
-                <div>
-                    <label class="form-label" for="PasswordTb">Coach's Password</label>
-                    <input type="text" id="PasswordTb" class="form-control form-control-lg" runat="server" />
-                </div>
-
-                <div class="mb-2">
-                    <label class="form-label" for="RecAddTb">Receptionist's Email</label>
-                    <input type="text" id="RecEmailTb" class="form-control form-control-lg" runat="server" />
-                </div>
 
                 <div class="row">
                     <div class="col d-grid">
@@ -61,7 +44,7 @@
                 </div>
 
                 <div class="col-md-9">
-                    <asp:GridView runat="server" ID="ReceptionistList" class="table"></asp:GridView>
+                    <asp:GridView runat="server" ID="MembershipList" class="table"></asp:GridView>
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@
 
                 <div>
                     <label class="form-label" for="CPhone">Coach's Phone</label>
-                    <input type="text" class="form-control" id="Cphone" runat="server" autocomplete="off" />
+                    <input type="text" class="form-control" id="PhoneTb" runat="server" autocomplete="off" />
                 </div>
 
                 <div>
@@ -48,7 +48,7 @@
                 </div>
 
                 <div class="mb-2">
-                    <label class="form-label" for="CAddTb">Coach's Email</label>
+                    <label class="form-label" for="EmailTb">Coach's Email</label>
                     <input type="text" id="EmailTb" class="form-control form-control-lg" runat="server" />
                 </div>
 

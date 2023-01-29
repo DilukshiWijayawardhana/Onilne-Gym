@@ -15,13 +15,13 @@ namespace Onilne_Gym.Views.Admin
     {
 
         /// <summary>
-        /// RecNameTb control.
+        /// RecTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecNameTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText RecTb;
 
         /// <summary>
         /// RGenCb control.
@@ -33,22 +33,22 @@ namespace Onilne_Gym.Views.Admin
         protected global::System.Web.UI.WebControls.DropDownList RGenCb;
 
         /// <summary>
-        /// CDOBTb control.
+        /// RDOBTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl CDOBTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl RDOBTb;
 
         /// <summary>
-        /// Rphone control.
+        /// PhoneTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Rphone;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PhoneTb;
 
         /// <summary>
         /// RecAddTb control.
@@ -60,15 +60,6 @@ namespace Onilne_Gym.Views.Admin
         protected global::System.Web.UI.HtmlControls.HtmlInputText RecAddTb;
 
         /// <summary>
-        /// RecPasswordTb control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecPasswordTb;
-
-        /// <summary>
         /// PasswordTb control.
         /// </summary>
         /// <remarks>
@@ -78,13 +69,40 @@ namespace Onilne_Gym.Views.Admin
         protected global::System.Web.UI.HtmlControls.HtmlInputText PasswordTb;
 
         /// <summary>
-        /// RecEmailTb control.
+        /// EmailTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecEmailTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText EmailTb;
+
+        /// <summary>
+        /// ErrMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl ErrMsg;
+
+        /// <summary>
+        /// EditBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EditBtn;
+
+        /// <summary>
+        /// DeleteBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DeleteBtn;
 
         /// <summary>
         /// ReceptionistList control.

@@ -24,66 +24,39 @@ namespace Onilne_Gym.Views.Admin
         protected global::System.Web.UI.HtmlControls.HtmlInputText MNameTb;
 
         /// <summary>
-        /// CDOBTb control.
+        /// DurationTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl CDOBTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText DurationTb;
 
         /// <summary>
-        /// Rphone control.
+        /// GoalTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Rphone;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText GoalTb;
 
         /// <summary>
-        /// RecAddTb control.
+        /// CostTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecAddTb;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText CostTb;
 
         /// <summary>
-        /// RecPasswordTb control.
+        /// MembershipList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecPasswordTb;
-
-        /// <summary>
-        /// PasswordTb control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText PasswordTb;
-
-        /// <summary>
-        /// RecEmailTb control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText RecEmailTb;
-
-        /// <summary>
-        /// ReceptionistList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ReceptionistList;
+        protected global::System.Web.UI.WebControls.GridView MembershipList;
     }
 }

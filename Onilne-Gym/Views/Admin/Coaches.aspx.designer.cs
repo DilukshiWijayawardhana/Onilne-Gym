@@ -42,13 +42,13 @@ namespace Onilne_Gym.Views.Admin
         protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl CDOBTb;
 
         /// <summary>
-        /// Cphone control.
+        /// PhoneTb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Cphone;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText PhoneTb;
 
         /// <summary>
         /// CExprience control.
